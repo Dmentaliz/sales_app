@@ -81,9 +81,14 @@ body{
     .logo{
         display: block;
     }
+    .form-container .signup-button{
+        width: inherit;
+        position: absolute;
+        bottom: 24px;
+    }
 }
 
-/* clase2.html */
+/* clase2.html --------------------------------------------------------------------------*/
 .email-image {
     width: 132px;
     height: 132px;
@@ -110,3 +115,27 @@ body{
 .container2{
     justify-items: center;
 }
+
+/* clase3.html --------------------------------------------------------------------------*/
+.form a{
+    color:var(--hospital-green);
+    font-size: var(--sm);
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 52px;
+}
+.input-email{
+    margin-bottom: 22px;
+}
+.secondary-button{
+    background-color: var(--white-b);
+    border-radius: 8px;
+    border: 1px solid var(--hospital-green);
+    color: var(--hospital-green);
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+}
+
