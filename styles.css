@@ -253,3 +253,37 @@ body{
 .desktop-menu ul li:not(:last-child){
     font-weight: bold;
 }
+/* clase7.html --------------------------------------------------------------------------*/
+.mobile-menu{
+    padding: 20px;
+}
+.mobile-menu a{
+    text-decoration: none;
+}
+.mobile-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 24px 0 0;
+}
+.mobile-menu ul:nth-child(1){
+    border-bottom: 1px solid var(--very-light-pink);
+}
+.mobile-menu ul:last-child{
+    margin-top: 50px;
+}
+.mobile-menu ul li{
+    margin-bottom: 24px;
+}
+.categories-8 a, .account-8 a{
+    font-weight: bold;
+    color: var(--black-b);
+}
+.email-8{
+    font-size: var(--sm);
+    color: var(--black-b);
+}
+.sign-out-8{
+    font-size: var(--sm);
+    color: var(--hospital-green);
+    font-weight: bold;
+}
