@@ -356,3 +356,30 @@ body{
     font-size: var(--md);
     font-weight: bold;
 }
+/* clase10.html --------------------------------------------------------------------------*/
+.order-10{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.order-10 p{
+    margin: 0;
+}
+.order-10 p:nth-child(1){
+    display: flex;
+    flex-direction: column;
+}
+.order-10 p span:nth-child(1){
+    font-size: var(--md);
+    font-weight: bold;
+}
+.order-10 p span:nth-child(2){
+    font-size: var(--sm);
+    color: var(--very-light-pink);
+}
+.order-10 p:nth-child(2){
+    text-align: end;
+    font-weight: bold;
+}
