@@ -402,6 +402,12 @@ nav{
 .navbar-left ul{
     margin-left: 12px;
 }
+.navbar-left ul li:nth-child(1){
+    margin-left: 18px;
+}
+.navbar-left ul li:last-child{
+    margin-right: 18px;
+}
 .navbar-left ul, .navbar-right ul{
     list-style: none;
     padding: 0;
@@ -452,5 +458,63 @@ nav{
     }
     .navbar-email{
         display: none;
+    }
+}
+/* clase12.html --------------------------------------------------------------------------*/
+.product-detail-12{
+    width:360px;
+    padding-bottom: 24px;
+    position: absolute;
+    right: 0;
+}
+.product-detail-close-12{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width:14px;
+    height:14px;
+    background-color: var(--white-b);
+    z-index: 2;
+    padding: 12px;
+    border-radius: 50%;
+}
+.product-detail-close-12:hover{
+    cursor: pointer;
+}
+.product-detail-12 > img:nth-child(2){
+    width:100%;
+    height:360px;
+    object-fit: cover;
+    border-radius: 0 0 20px 20px;
+}
+.product-info-12{
+    margin: 24px 24px 0 24px;
+}
+.product-info-12 p:nth-child(1){
+    font-weight: bold;
+    font-size: var(--md);
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+.product-info-12 p:nth-child(2){
+    color: var(--very-light-pink);
+    font-size: var(--md);
+    margin-top: 0;
+    margin-bottom: 36px;
+}
+.product-info-12 p:nth-child(3){
+    color: var(--very-light-pink);
+    font-size: var(--sm);
+    margin-top: 0;
+    margin-bottom: 36px;
+}
+.add-to-cart-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width:640px) {
+    .product-detail-12{
+        width:100%;
     }
 }
